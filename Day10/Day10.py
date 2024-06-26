@@ -32,7 +32,6 @@ def pass_items(bot):
     bot_items[bot].sort()
     if target == bot_items[bot]:
         print(bot)
-        print("Michael Skyba")
         exit()
     for i in range(2):
         if bot_instructions[bot][i] < 0:
